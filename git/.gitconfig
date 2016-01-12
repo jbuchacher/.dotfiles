@@ -1,0 +1,19 @@
+[user]
+    name = "Joshua Buchacher"
+    email = "jbuchacher@me.com"
+[alias]
+
+[color]
+  diff = auto
+  status = auto
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added     = cyan bold
+    branch    = cyan bold
+    changed   = magenta bold
+    deleted   = red bold
+    untracked = yellow bold
