@@ -1,19 +1,29 @@
 [user]
-    name = "Joshua Buchacher"
-    email = "jbuchacher@me.com"
+        name = Joshua Buchacher
+        email = jbuchacher@me.com
+[core]
+        editor = emacsclient -nw -a=
+        excludesfile = /Users/joshb/.gitignore_global
 [alias]
-
+  co = checkout
+  ci = commit
+  cm = commit -m
+  dc = diff --cached
+  st = status
+  pu = remote update --prune
+  aa = add --all
+  l = log --graph --abbrev-commit --date=relative
+  bro = !git branch -r | grep origin
+  sl = stash list
+  standup = log --since="25.hours.ago" --author Joshua
 [color]
-  diff = auto
-  status = auto
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
-[color "status"]
-    added     = cyan bold
-    branch    = cyan bold
-    changed   = magenta bold
-    deleted   = red bold
-    untracked = yellow bold
+        ui = true
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+[credential]
+        helper = osxkeychain
+[push]
+        default = simple
+[pull]
+	rebase = true
