@@ -1,6 +1,6 @@
 # -- Zsh -----------------------------------------------------------------------
 # Path to your oh-my-zsh configuration.
-ZSH="/Users/joshb/.dotfiles/.oh-my-zsh"
+ZSH="/Users/josh/.oh-my-zsh"
 
 # -- Editor --------------------------------------------------------------------
 EDITOR="emacsclient"
@@ -11,7 +11,7 @@ ALTERNATE_EDITOR=""
 # Look in /Users/joshb/.dotfiles/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="dracula"
+ZSH_THEME="random"
 
 # -- Plugins -------------------------------------------------------------------
 # Plugins can be found in /Users/joshb/.dotfiles/.oh-my-zsh/plugins/
