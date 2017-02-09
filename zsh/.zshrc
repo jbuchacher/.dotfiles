@@ -11,7 +11,7 @@ ALTERNATE_EDITOR=""
 # Look in /Users/joshb/.dotfiles/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="random"
+ZSH_THEME="theunraveler"
 
 # -- Plugins -------------------------------------------------------------------
 # Plugins can be found in /Users/joshb/.dotfiles/.oh-my-zsh/plugins/
@@ -37,3 +37,13 @@ fi
 
 # -- Term ----------------------------------------------------------------------
 TERM=xterm-256color
+
+export NVM_DIR="/Users/josh/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+ulimit -n 2560
+
+eval "$(direnv hook zsh)"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
