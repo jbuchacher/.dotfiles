@@ -3,7 +3,7 @@
         email = jbuchacher@me.com
 [core]
         editor = emacsclient -nw -a=
-        excludesfile = /Users/joshb/.gitignore_global
+        excludesfile = /Users/jbuchacher/.gitignore
 [alias]
   co = checkout
   ci = commit
